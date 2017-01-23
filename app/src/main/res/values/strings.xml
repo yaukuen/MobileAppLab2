@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">WidgetsLab</string>
+    <string name="action_settings">Settings</string>
+    <string name="static_linked_button_text">Click Me!</string>
+    <string name="dynamic_linked_button_text">No, Click Me!</string>
+    <string-array name="list_view_labels">
+        <item>Button Example</item>
+        <item>TextView Example</item>
+        <item>EditText Example</item>
+        <item>AutoComplete Example</item>
+        <item>Spinner Example</item>
+        <item>RadioButton, CheckBox Example</item>
+    </string-array>
+    <string name="text_view_ex1">Hello All</string>
+    <string name="text_view_ex_phone">253 123 4567</string>
+    <string name="text_view_ex_email">myunetid@uw.edu</string>
+    <string name="edit_view_hint">type something!</string>
+    <string-array name="auto_complete_colors">
+        <item>red</item>
+        <item>green</item>
+        <item>orange</item>
+        <item>blue</item>
+        <item>purple</item>
+        <item>black</item>
+        <item>yellow</item>
+        <item>cyan</item>
+        <item>magenta</item>
+    </string-array>
+    <string name="auto_complete_hint">Choose a color</string>
+    <string name="radioYes">Yes</string>
+    <string name="radioNo">No</string>
+    <string name="toppingMeat">meat</string>
+    <string name="toppingCheese">cheese</string>
+    <string name="toppingVegetables">vegetables</string>
+    <string name="toppingSauce">sauce</string>
+    <string name="submit">Submit</string>
+</resources>
