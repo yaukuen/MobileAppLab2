@@ -1,5 +1,6 @@
 package group9.tcss450.uw.edu.widgetslab;
 
+import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -33,35 +34,36 @@ public class SpinnerActivity extends AppCompatActivity implements AdapterView.On
 //                "The color is " + color,
 //                Toast.LENGTH_SHORT).show();
         GradientDrawable bg = (GradientDrawable) findViewById(R.id.lemonShape).getBackground();
-        switch (color) {
-            case "red":
-                bg.setColor(getResources().getColor(R.color.red));
-                break;
-            case "green":
-                bg.setColor(getResources().getColor(R.color.green));
-                break;
-            case "orange":
-                bg.setColor(getResources().getColor(R.color.orange));
-                break;
-            case "blue":
-                bg.setColor(getResources().getColor(R.color.blue));
-                break;
-            case "purple":
-                bg.setColor(getResources().getColor(R.color.purple));
-                break;
-            case "black":
-                bg.setColor(getResources().getColor(R.color.black));
-                break;
-            case "yellow":
-                bg.setColor(getResources().getColor(R.color.yellow));
-                break;
-            case "cyan":
-                bg.setColor(getResources().getColor(R.color.cyan));
-                break;
-            case "magenta":
-                bg.setColor(getResources().getColor(R.color.magenta));
-                break;
-        }
+//        switch (color) {
+//            case "red":
+//                bg.setColor(getResources().getColor(R.color.red));
+//                break;
+//            case "green":
+//                bg.setColor(getResources().getColor(R.color.green));
+//                break;
+//            case "orange":
+//                bg.setColor(getResources().getColor(R.color.orange));
+//                break;
+//            case "blue":
+//                bg.setColor(getResources().getColor(R.color.blue));
+//                break;
+//            case "purple":
+//                bg.setColor(getResources().getColor(R.color.purple));
+//                break;
+//            case "black":
+//                bg.setColor(getResources().getColor(R.color.black));
+//                break;
+//            case "yellow":
+//                bg.setColor(getResources().getColor(R.color.yellow));
+//                break;
+//            case "cyan":
+//                bg.setColor(getResources().getColor(R.color.cyan));
+//                break;
+//            case "magenta":
+//                bg.setColor(getResources().getColor(R.color.magenta));
+//                break;
+//        }
+        bg.setColor(Color.parseColor(color));
     }
 
     @Override
